@@ -16,7 +16,7 @@
         <div id="pg-kancelaria" class="card-container">
           <div class="project-card">
             <div class="project-info">
-              <h2>Simple Novel Reader</h2>
+              <h2>PG Kancelaria</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
                 at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
                 ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
@@ -29,7 +29,7 @@
         <div id="cb-universal" class="card-container">
           <div class="project-card">
             <div class="project-info">
-              <h2>Simple Novel Reader</h2>
+              <h2>CB Universal</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
                 at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
                 ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
@@ -40,7 +40,7 @@
         <div id="startpage" class="card-container">
           <div class="project-card">
             <div class="project-info">
-              <h2>Simple Novel Reader</h2>
+              <h2>Startpage 2</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
                 at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
                 ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
@@ -78,7 +78,22 @@ export default {
       }
     }
 
+    @media @sm {
+      .row {
+        flex-direction: column;
+      }
+    }
+
     .project-card {
+      overflow: scroll;
+      overflow-x: hidden;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
       width: 100%;
       height: 380px;
       text-align: center;
@@ -114,13 +129,13 @@ export default {
 
 #pg-kancelaria {
   background-image: url(../assets/project-pgkancelaria.png);
-  background-position: top left;
+  background-position: left top;
   background-size: cover;
 }
 
 #cb-universal {
   background-image: url(../assets/project-snr.png);
-  background-position: center;
+  background-position: center top;
   background-size: cover;
 }
 
