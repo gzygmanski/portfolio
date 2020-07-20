@@ -2,7 +2,7 @@
   <nav id="navigation" :class="{fixed: !onTop}">
     <div class="container">
       <div class="logo">
-        <a href="#header"><span>Grzegorz Zygmański</span> - Portfolio</a>
+        <a href="#" v-scroll-to="'#header'"><span>Grzegorz Zygmański</span> - Portfolio</a>
       </div>
       <div class="links">
         <a href="#" v-scroll-to="'#projects'">Projekty</a>
