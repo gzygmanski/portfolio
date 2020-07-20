@@ -56,6 +56,12 @@ export default {
       padding: 40px 50px;
     }
 
+    @media @sm {
+      .content {
+        display: none;
+      }
+    }
+
     .image-container {
       max-width: 1000px;
       padding: 40px 50px;
