@@ -3,15 +3,15 @@
     <div class="container">
       <h2>Zostańmy w kontakcie!</h2>
       <div class="row">
-        <div class="call">
+        <div class="box call">
           <p>Jestem otwarty na propozycje współpracy. Podejrzyj moje CV i napisz lub zadzwoń</p>
         </div>
         <div class="contact-list">
           <ul>
             <li><font-awesome-icon icon="envelope" /><span>gzygmanski@hotmail.com</span></li>
-            <li><font-awesome-icon icon="phone-alt" /><span>gzygmanski@hotmail.com</span></li>
-            <li><font-awesome-icon :icon="['fab', 'github-alt']" /><span>gzygmanski@hotmail.com</span></li>
-            <li><font-awesome-icon icon="file-pdf" /><span>gzygmanski@hotmail.com</span></li>
+            <li><font-awesome-icon icon="phone-alt" /><span>+48 000 000 000</span></li>
+            <li><font-awesome-icon :icon="['fab', 'github-alt']" /><span>github.com/gzygmanski</span></li>
+            <li><font-awesome-icon icon="file-pdf" /><span>CV</span></li>
           </ul>
         </div>
       </div>
@@ -44,7 +44,6 @@ export default {
 
       .call {
         padding-right: 50px;
-        width: 50%;
       }
 
       .contact-list {
@@ -58,6 +57,16 @@ export default {
               margin-left: 20px;
             }
           }
+        }
+      }
+    }
+
+    @media @sm {
+      .row {
+        flex-direction: column;
+
+        .contact-list {
+          width: 100%;
         }
       }
     }
