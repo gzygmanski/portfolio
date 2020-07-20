@@ -82,6 +82,10 @@ export default {
       .row {
         flex-direction: column;
       }
+
+      .project-card {
+        padding: 50px 75px;
+      }
     }
 
     .project-card {

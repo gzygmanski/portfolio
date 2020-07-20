@@ -97,6 +97,7 @@ export default {
       .story-card {
         margin: auto;
         min-width: 100%;
+        padding: 50px 75px;
 
         .story-image {
           img {
