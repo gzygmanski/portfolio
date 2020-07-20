@@ -59,7 +59,7 @@
     margin-bottom: 50px;
   }
 
-  p {
+  p, li {
     font-size: @base-font-size;
     line-height: @base-font-size * 1.75;
     margin-bottom: 20px;

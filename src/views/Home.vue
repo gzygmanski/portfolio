@@ -5,6 +5,7 @@
     <Projects />
     <Skills />
     <About />
+    <Contact />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Header from '@/components/Header.vue'
 import Projects from '@/components/Projects.vue'
 import Skills from '@/components/Skills.vue'
 import About from '@/components/About.vue'
+import Contact from '@/components/Contact.vue'
 
 export default {
   name: 'Home',
@@ -22,7 +24,8 @@ export default {
     Header,
     Projects,
     Skills,
-    About
+    About,
+    Contact
   }
 }
 </script>

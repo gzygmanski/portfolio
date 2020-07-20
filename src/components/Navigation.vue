@@ -63,7 +63,6 @@ export default {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    max-width: 1500px;
     margin: 0 auto;
     padding: 0 50px;
     text-transform: uppercase;
