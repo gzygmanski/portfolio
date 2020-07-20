@@ -5,9 +5,9 @@
         <a href="#header"><span>Grzegorz Zygmański</span> - Portfolio</a>
       </div>
       <div class="links">
-        <a href="#about">O Mnie</a>
-        <a href="#skills">Umiejętności</a>
         <a href="#projects">Projekty</a>
+        <a href="#skills">Umiejętności</a>
+        <a href="#about">O Mnie</a>
         <a href="#contact">Kontakt</a>
       </div>
       <div class="menu">
