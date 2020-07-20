@@ -8,10 +8,10 @@
         </div>
         <div class="contact-list">
           <ul>
-            <li>gzygmanski@hotmail.com</li>
-            <li>+48 000 000 000</li>
-            <li>github.com/gzygmanski</li>
-            <li>CV</li>
+            <li><font-awesome-icon icon="envelope" /><span>gzygmanski@hotmail.com</span></li>
+            <li><font-awesome-icon icon="phone-alt" /><span>gzygmanski@hotmail.com</span></li>
+            <li><font-awesome-icon :icon="['fab', 'github-alt']" /><span>gzygmanski@hotmail.com</span></li>
+            <li><font-awesome-icon icon="file-pdf" /><span>gzygmanski@hotmail.com</span></li>
           </ul>
         </div>
       </div>
@@ -54,6 +54,9 @@ export default {
         ul {
           li {
             margin-bottom: 25px;
+            span {
+              margin-left: 20px;
+            }
           }
         }
       }

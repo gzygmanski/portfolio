@@ -11,7 +11,7 @@
         <a href="#contact">Kontakt</a>
       </div>
       <div class="menu">
-        +
+       <span><font-awesome-icon icon="bars" /></span>
       </div>
     </div>
   </nav>
@@ -45,6 +45,13 @@ export default {
   box-shadow: @base-bg-dark 0 0 5px;
   padding: 25px !important;
   background: @base-bg-dark;
+
+  .menu {
+    span {
+      color: @base-fg-light !important;
+    }
+  }
+
   a {
     color: @base-fg-light !important;
   }
@@ -70,6 +77,11 @@ export default {
 
   .menu {
     display: none;
+    cursor: pointer;
+
+    span {
+      color: @base-fg-dark;
+    }
   }
 
   .logo {
