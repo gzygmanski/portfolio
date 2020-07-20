@@ -2,13 +2,13 @@
   <nav id="navigation" :class="{fixed: !onTop}">
     <div class="container">
       <div class="logo">
-        <a href="#header"><span>Grzegorz Zygmański</span> - Portfolio</a>
+        <a href="#" v-scroll-to="'#header'"><span>Grzegorz Zygmański</span> - Portfolio</a>
       </div>
       <div class="links">
-        <a href="#projects">Projekty</a>
-        <a href="#skills">Umiejętności</a>
-        <a href="#about">O Mnie</a>
-        <a href="#contact">Kontakt</a>
+        <a href="#" v-scroll-to="'#projects'">Projekty</a>
+        <a href="#" v-scroll-to="'#skills'">Umiejętności</a>
+        <a href="#" v-scroll-to="'#about'">O Mnie</a>
+        <a href="#" v-scroll-to="'#contact'">Kontakt</a>
       </div>
       <div class="menu">
        <span><font-awesome-icon icon="bars" /></span>
