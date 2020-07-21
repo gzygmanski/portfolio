@@ -8,10 +8,10 @@
         </div>
         <div class="contact-list">
           <ul>
-            <li><font-awesome-icon icon="envelope" /><span>gzygmanski@hotmail.com</span></li>
-            <li><font-awesome-icon icon="phone-alt" /><span>+48 000 000 000</span></li>
-            <li><font-awesome-icon :icon="['fab', 'github-alt']" /><span>github.com/gzygmanski</span></li>
-            <li><font-awesome-icon icon="file-pdf" /><span>CV</span></li>
+            <li><a href="mailto:gzygmanski@hotmail.com"><font-awesome-icon icon="envelope" /><span>gzygmanski@hotmail.com</span></a></li>
+            <li><a href="tel:+48579633775"><font-awesome-icon icon="phone-alt" /><span>+48 579 633 775</span></a></li>
+            <li><a href="https://github.com/gzygmanski" target="_blank"><font-awesome-icon :icon="['fab', 'github-alt']" /><span>github.com/gzygmanski</span></a></li>
+            <li><a href="./cv.pdf" download><font-awesome-icon icon="file-pdf" /><span>CV</span></a></li>
           </ul>
         </div>
       </div>
@@ -52,6 +52,9 @@ export default {
 
         ul {
           li {
+            a {
+              color: @base-fg-light;
+            }
             margin-bottom: 25px;
             span {
               margin-left: 20px;
