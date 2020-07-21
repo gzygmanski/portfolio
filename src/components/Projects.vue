@@ -6,6 +6,14 @@
           <div class="project-card">
             <div class="project-info">
               <h2>Simple Novel Reader</h2>
+              <div class="links">
+                <a href="https://github.com/gzygmanski/simple-novel-reader" target="_blank">
+                  <span>github</span><font-awesome-icon icon="external-link-alt" />
+                </a>
+                <a href="https://pypi.org/project/simple-novel-reader" target="_blank">
+                  <span>pypi</span><font-awesome-icon icon="external-link-alt" />
+                </a>
+              </div>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
                 at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
                 ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
@@ -17,6 +25,11 @@
           <div class="project-card">
             <div class="project-info">
               <h2>PG Kancelaria</h2>
+              <div class="links">
+                <a href="http://pgkancelaria.pl/" target="_blank">
+                  <span>strona</span><font-awesome-icon icon="external-link-alt" />
+                </a>
+              </div>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
                 at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
                 ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
@@ -30,6 +43,11 @@
           <div class="project-card">
             <div class="project-info">
               <h2>CB Universal</h2>
+              <div class="links">
+                <a href="http://cbuniversal.us/" target="_blank">
+                  <span>strona</span><font-awesome-icon icon="external-link-alt" />
+                </a>
+              </div>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
                 at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
                 ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
@@ -41,6 +59,11 @@
           <div class="project-card">
             <div class="project-info">
               <h2>Startpage 2</h2>
+              <div class="links">
+                <a href="https://github.com/gzygmanski/startpage2" target="_blank">
+                  <span>github</span><font-awesome-icon icon="external-link-alt" />
+                </a>
+              </div>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
                 at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
                 ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
@@ -105,8 +128,7 @@ export default {
 
       &:hover {
         transition: ease .25s;
-        background-color: @base-primary;
-        opacity: .9;
+        background-color: @base-bg-blend2;
         .project-info {
           display: block;
         }
@@ -115,6 +137,19 @@ export default {
       .project-info {
         display: none;
         color: @base-fg-light;
+
+        .links {
+          margin: 20px 0;
+
+          a {
+            color: @base-secondary;
+            margin: 20px;
+
+            span {
+              margin-right: 5px;
+            }
+          }
+        }
       }
 
       img {
@@ -138,7 +173,7 @@ export default {
 }
 
 #cb-universal {
-  background-image: url(../assets/project-snr.png);
+  background-image: url(../assets/project-cbuniversal.png);
   background-position: center top;
   background-size: cover;
 }
