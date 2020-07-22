@@ -14,10 +14,11 @@
                   <span>pypi</span><font-awesome-icon icon="external-link-alt" />
                 </a>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
-                at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
-                ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
-                tincidunt ex vulputate. </p>
+              <p>Prosty czytnik książek w formacie EPUB z wykorzystaniem biblioteki Curses.</p>
+              <div class="links">
+                <span class="badge primary">Python</span>
+                <span class="badge tertiary">Curses</span>
+              </div>
             </div>
           </div>
         </div>
@@ -30,10 +31,13 @@
                   <span>strona</span><font-awesome-icon icon="external-link-alt" />
                 </a>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
-                at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
-                ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
-                tincidunt ex vulputate. </p>
+              <p>Strona domowa kanclelarii adwokackiej.</p>
+              <div class="links">
+                <span class="badge primary">PHP</span>
+                <span class="badge primary">HTML</span>
+                <span class="badge tertiary">Sass</span>
+                <span class="badge tertiary">Bootstrap</span>
+              </div>
             </div>
           </div>
         </div>
@@ -48,10 +52,13 @@
                   <span>strona</span><font-awesome-icon icon="external-link-alt" />
                 </a>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
-                at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
-                ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
-                tincidunt ex vulputate. </p>
+              <p>Strona domowa firmy CB Universal.</p>
+              <div class="links">
+                <span class="badge secondary">Node.js</span>
+                <span class="badge primary">JavaScript</span>
+                <span class="badge primary">HTML</span>
+                <span class="badge tertiary">Less</span>
+              </div>
             </div>
           </div>
         </div>
@@ -64,10 +71,14 @@
                   <span>github</span><font-awesome-icon icon="external-link-alt" />
                 </a>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
-                at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
-                ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
-                tincidunt ex vulputate. </p>
+              <p>Projekt strony startowej z zakładkami i interfejsem MPD</p>
+              <div class="links">
+                <span class="badge secondary">Vue</span>
+                <span class="badge secondary">Flask</span>
+                <span class="badge primary">Python</span>
+                <span class="badge primary">JavaScript</span>
+                <span class="badge tertiary">CSS</span>
+              </div>
             </div>
           </div>
         </div>

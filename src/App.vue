@@ -51,7 +51,7 @@
     font-size: @base-h2-size;
     text-transform: uppercase;
     letter-spacing: 4.25px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
 
   h3 {
@@ -65,12 +65,16 @@
     margin-bottom: 20px;
   }
 
+  .small {
+    font-size: @base-font-small;
+  }
+
   a {
     color: @base-fg-dark;
     text-decoration: none;
   }
 
-  button {
+  button, .btn {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-size: 16px;
     background: @base-primary;
@@ -88,6 +92,15 @@
 
   .box {
     max-width: @base-box-size;
+  }
+
+  .badge {
+    font-weight: 700;
+    font-size: 12px;
+    color: @base-fg-dark;
+    padding: 2px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
   }
 }
 

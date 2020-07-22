@@ -5,11 +5,23 @@
         <img src="../assets/skills.svg" alt="" />
       </div>
       <div class="box content">
-        <h2>Skills</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
-          at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
-          ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
-          tincidunt ex vulputate. </p>
+        <h2>Umiejętności</h2>
+        <p>Posiadam wiedzę i umiejętności z zakresu programowania, projektowania i tworzenia stron
+          internetowych.</p>
+        <p>Najchętniej pracuje z:</p>
+        <ul>
+          <li>HTML 5</li>
+          <li>CSS 3</li>
+          <li>Sass</li>
+          <li>Python</li>
+          <li>Vue</li>
+          <li>JavaScript ...</li>
+        </ul>
+        <p class="small">Więcej informacji znajdziesz w moim CV:</p>
+        <a class="btn" href="./cv.pdf" download>
+          <font-awesome-icon icon="file-pdf" />
+          <span>Pobierz CV (2.72MB)</span>
+        </a>
       </div>
     </div>
   </section>
@@ -54,6 +66,21 @@ export default {
       background: linear-gradient(@base-bg-dark, #ffffff00);
       color: @base-fg-light;
       padding: 40px 50px;
+
+      a {
+        span {
+          margin-left: 10px;
+
+        }
+      }
+
+      ul {
+        margin: 0 0 50px 20px;
+        li {
+          margin: 0;
+          list-style: inside '+ ';
+        }
+      }
     }
 
     @media @sm {

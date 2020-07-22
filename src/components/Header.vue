@@ -4,8 +4,9 @@
       <div class="box landing-content">
         <h1>Grzegorz Zygmański</h1>
         <h2>Junior Front-end Developer</h2>
-        <p>Programista, front-end developer oraz entuzjasta środowiska GNU/Linux. Obecnie zmagający
-          się z poznawaniem tajników UX oraz grafiki wektorowej</p>
+        <p>Zajmuję się projektowaniem i tworzeniem responsywnych stron internetowych. Okazyjnie
+          piszę aplikację i skrypty w Pythonie oraz Bash'u. Sprawdź niektóre z moich projektów.</p>
+        <p></p>
         <button v-scroll-to="'#projects'">Dowiedz się więcej</button>
       </div>
     </div>
