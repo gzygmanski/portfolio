@@ -55,8 +55,9 @@
   }
 
   h3 {
+    font-family: 'TeX Adventor', Helvetica, Arial, sans-serif;
     font-size: @base-notice-size;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
 
   p, li {
@@ -97,10 +98,10 @@
   .badge {
     font-weight: 700;
     font-size: 12px;
-    color: @base-fg-dark;
-    padding: 2px 10px;
+    color: @base-fg-light;
+    padding: 5px 5px;
     margin-right: 10px;
-    border-radius: 5px;
+    border-radius: 2px;
   }
 }
 

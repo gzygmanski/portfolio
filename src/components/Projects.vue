@@ -1,11 +1,12 @@
 <template>
   <section id="projects">
     <div class="container">
+      <h2>Projekty</h2>
       <div class="row">
         <div id="snr" class="card-container">
           <div class="project-card">
             <div class="project-info">
-              <h2>Simple Novel Reader</h2>
+              <h3>Simple Novel Reader</h3>
               <div class="links">
                 <a href="https://github.com/gzygmanski/simple-novel-reader" target="_blank">
                   <span>github</span><font-awesome-icon icon="external-link-alt" />
@@ -25,7 +26,7 @@
         <div id="pg-kancelaria" class="card-container">
           <div class="project-card">
             <div class="project-info">
-              <h2>PG Kancelaria</h2>
+              <h3>PG Kancelaria</h3>
               <div class="links">
                 <a href="http://pgkancelaria.pl/" target="_blank">
                   <span>strona</span><font-awesome-icon icon="external-link-alt" />
@@ -46,7 +47,7 @@
         <div id="cb-universal" class="card-container">
           <div class="project-card">
             <div class="project-info">
-              <h2>CB Universal</h2>
+              <h3>CB Universal</h3>
               <div class="links">
                 <a href="http://cbuniversal.us/" target="_blank">
                   <span>strona</span><font-awesome-icon icon="external-link-alt" />
@@ -65,7 +66,7 @@
         <div id="startpage" class="card-container">
           <div class="project-card">
             <div class="project-info">
-              <h2>Startpage 2</h2>
+              <h3>Startpage 2</h3>
               <div class="links">
                 <a href="https://github.com/gzygmanski/startpage2" target="_blank">
                   <span>github</span><font-awesome-icon icon="external-link-alt" />
@@ -100,21 +101,37 @@ export default {
   background: @base-bg-dark2;
 
   .container {
+    padding-top: 20px;
 
     .row {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
+      padding: 0 10px;
 
       .card-container {
         width: 100%;
         height: 380px;
+        margin: 0px 10px 20px 10px;
       }
+    }
+
+    h2 {
+      color: @base-fg-light;
+      padding: 10px 75px;
     }
 
     @media @sm {
       .row {
         flex-direction: column;
+        &:last-child {
+          padding-bottom: 10px;
+        }
+
+        .card-container {
+          width: unset;
+          margin: 0;
+        }
       }
 
       .project-card {
@@ -135,26 +152,39 @@ export default {
       width: 100%;
       height: 380px;
       text-align: center;
-      padding: 40px 50px;
+      padding: 70px 50px;
 
       &:hover {
-        transition: ease .25s;
+        transition: all ease-in .25s;
+        padding: 60px 50px;
         background-color: @base-bg-blend2;
+
         .project-info {
+          padding-top: 0px;
           display: block;
         }
       }
 
       .project-info {
+        padding-top: 40px;
         display: none;
         color: @base-fg-light;
 
         .links {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          justify-content: center;
+
           margin: 20px 0;
+
+          span {
+            margin-bottom: 5px;
+          }
 
           a {
             color: @base-secondary;
-            margin: 20px;
+            margin-right: 20px;
 
             span {
               margin-right: 5px;
@@ -173,7 +203,7 @@ export default {
 
 #snr {
   background-image: url(../assets/project-snr.png);
-  background-position: center top;
+  background-position: left top;
   background-size: cover;
 }
 
@@ -191,7 +221,7 @@ export default {
 
 #startpage {
   background-image: url(../assets/project-startpage2.png);
-  background-position: center bottom;
+  background-position: left bottom;
   background-size: cover;
 }
 

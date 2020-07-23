@@ -49,11 +49,9 @@ export default {
 @import "../less/vars.less";
 
 #skills {
-  background-color: @base-bg-blend;
   background-image: url(../assets/skills.jpg);
   background-position: left;
   background-size: cover;
-  background-blend-mode: overlay;
 
   .container {
     display: flex;
