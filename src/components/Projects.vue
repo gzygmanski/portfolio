@@ -1,5 +1,5 @@
 <template>
-  <section id="projects">
+  <section id="projects" :style="{'min-height': contentHeight + 'px'}">
     <div class="container">
       <h2>Projekty</h2>
       <div class="row">
@@ -89,8 +89,12 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
 export default {
-  name: 'Projects'
+  name: 'Projects',
+  computed: {
+    ...mapGetters(['contentHeight'])
+  }
 }
 </script>
 
@@ -99,6 +103,10 @@ export default {
 
 #projects {
   background: @base-bg-dark2;
+  background-image: url(../assets/watermark.svg);
+  background-position: center;
+  background-size: 200px;
+  background-repeat: repeat;
 
   .container {
     padding-top: 20px;
@@ -155,17 +163,19 @@ export default {
       padding: 70px 50px;
 
       &:hover {
-        transition: all ease-in .25s;
+        transition: all ease-in-out .25s;
         padding: 60px 50px;
         background-color: @base-bg-blend2;
 
         .project-info {
+          opacity: 1;
           padding-top: 0px;
           display: block;
         }
       }
 
       .project-info {
+        opacity: 0;
         padding-top: 40px;
         display: none;
         color: @base-fg-light;

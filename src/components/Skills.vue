@@ -1,7 +1,7 @@
 <template>
-  <section id="skills">
+  <section id="skills" :style="{'min-height': contentHeight + 'px'}">
     <div class="container">
-      <div class="image-container">
+      <div class="image-container" :style="{'min-height': contentHeight + 'px'}">
         <img src="../assets/skills.svg" alt="" />
       </div>
       <div class="box content">
@@ -29,18 +29,12 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 export default {
   name: 'Skills',
-  data: () => {
-    return {
-      winHeight: 0
-    }
-  },
-  created () {
-    this.winHeight = window.innerHeight
-    window.addEventListener('resize', () => {
-      this.winHeight = window.innerHeight
-    })
+  computed: {
+    ...mapGetters(['contentHeight'])
   }
 }
 </script>
@@ -57,8 +51,6 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: stretch;
-    position: relative;
 
     .content {
       background: linear-gradient(@base-bg-dark, #ffffff00);
@@ -88,8 +80,18 @@ export default {
     }
 
     .image-container {
+      position: relative;
       max-width: 1000px;
       padding: 40px 50px;
+      width: 100%;
+
+      img {
+        position: absolute;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
     }
 
     img {

@@ -1,5 +1,5 @@
 <template>
-  <header id="header">
+  <header id="header" :style="{'min-height': headerHeight + 'px'}">
     <div class="container">
       <div class="box landing-content">
         <h1>Grzegorz Zygmański</h1>
@@ -14,8 +14,13 @@
 </template>
 
 <script charset="utf-8">
+import { mapGetters } from 'vuex'
+
 export default {
-  name: 'Header'
+  name: 'Header',
+  computed: {
+    ...mapGetters(['headerHeight'])
+  }
 }
 </script>
 
