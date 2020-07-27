@@ -117,7 +117,6 @@ export default {
 @import "../less/vars.less";
 
 #about {
-
   .carousel {
     display: none !important;
   }
