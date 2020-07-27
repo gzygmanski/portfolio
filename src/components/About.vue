@@ -3,38 +3,39 @@
     <div class="container static">
       <div class="stretch secondary">
         <div class="box story-card secondary">
-          <h2>2014 - Początek</h2>
+          <h2>Początek</h2>
+          <h3>2014</h3>
           <div class="story-image">
             <img src="../assets/sun.svg" alt=""/>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
-            at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
-            ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
-            tincidunt ex vulputate. </p>
+          <p>Swoją przygodę zacząłem w techników, gdzie nauczyłem się programować w C++ oraz
+            rozpocząłem naukę języka Python. Wiedzę zgromadzoną w tym czasie zabrałem ze sobą na
+            studia, gdzie napisałem moje pierwsze projekty...</p>
         </div>
       </div>
       <div class="stretch primary">
         <div class="box story-card primary">
-          <h2>2017 - Pierwsze projekty</h2>
+          <h2>Pierwsze projekty</h2>
+          <h3>2017</h3>
           <div class="story-image">
             <img src="../assets/mountain.svg" alt=""/>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
-            at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
-            ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
-            tincidunt ex vulputate. </p>
+          <p>W czasie studiów uczestniczyłem w kilku projektach. Były to proste strony w czystym
+            HTML z nutą Bootstrap'a niemniej jednak były one cennym doświadczeniem. Wziąłem także
+            udział w dwóch edycjach warsztatów prowadzonych przez firmę STX Next o nazwie PyPiła,
+            w których poznałem Django i Flask.</p>
         </div>
       </div>
       <div class="stretch tertiary">
         <div class="box story-card tertiary">
-          <h2>2020 - Kolejne kroki</h2>
+          <h2>Rewitalizacja</h2>
+          <h3>2020</h3>
           <div class="story-image">
             <img src="../assets/forest.svg" alt=""/>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
-            at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
-            ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
-            tincidunt ex vulputate. </p>
+          <p>W ostatnim roku studiów nie miałem wiele czasu aby poświęcić na programowanie, gdyż
+            byłem pochłonienty pisaniem pracy magisterskiej. Od 2020 jednak powróciłem z nowymi
+            siłami. Zacząłem na nowo poznawać języki i środowiska programistyczne.</p>
         </div>
       </div>
     </div>
@@ -50,38 +51,39 @@
     >
       <slide class="stretch secondary">
         <div class="box story-card secondary">
-          <h2>2014 - Początek</h2>
+          <h2>Początek</h2>
+          <h3>2014</h3>
           <div class="story-image">
             <img src="../assets/sun.svg" alt=""/>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
-            at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
-            ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
-            tincidunt ex vulputate. </p>
+          <p>Swoją przygodę zacząłem w techników, gdzie nauczyłem się programować w C++ oraz
+            rozpocząłem naukę języka Python. Wiedzę zgromadzoną w tym czasie zabrałem ze sobą na
+            studia, gdzie napisałem moje pierwsze projekty...</p>
         </div>
       </slide>
       <slide class="stretch primary">
         <div class="box story-card primary">
-          <h2>2017 - Pierwsze projekty</h2>
+          <h2>Pierwsze projekty</h2>
+          <h3>2017</h3>
           <div class="story-image">
             <img src="../assets/mountain.svg" alt=""/>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
-            at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
-            ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
-            tincidunt ex vulputate. </p>
+          <p>W czasie studiów uczestniczyłem w kilku projektach. Były to proste strony w czystym
+            HTML z nutą Bootstrap'a niemniej jednak były one cennym doświadczeniem. Wziąłem także
+            udział w dwóch edycjach warsztatów prowadzonych przez firmę STX Next o nazwie PyPiła,
+            w których poznałem Django i Flask.</p>
         </div>
       </slide>
       <slide class="stretch tertiary">
         <div class="box story-card tertiary">
-          <h2>2020 - Kolejne kroki</h2>
+          <h2>Rewitalizacja</h2>
+          <h3>2020</h3>
           <div class="story-image">
             <img src="../assets/forest.svg" alt=""/>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nisl, aliquam
-            at luctus vitae, commodo iaculis libero. Nunc vel libero et magna rhoncus aliquam sed eu
-            ante. Donec eleifend eleifend metus in rutrum. Mauris tempus magna ut dui egestas, vel
-            tincidunt ex vulputate. </p>
+          <p>W ostatnim roku studiów nie miałem wiele czasu aby poświęcić na programowanie, gdyż
+            byłem pochłonienty pisaniem pracy magisterskiej. Od 2020 jednak powróciłem z nowymi
+            siłami. Zacząłem na nowo poznawać języki i środowiska programistyczne.</p>
         </div>
       </slide>
     </carousel>
@@ -100,7 +102,7 @@ export default {
   data: () => {
     return {
       autoplay: true,
-      autoplayTimeout: 5000,
+      autoplayTimeout: 3000,
       autoplayHoverPause: true,
       perPage: 1,
       paginationEnabled: false,
@@ -129,7 +131,7 @@ export default {
 
       .story-image {
         position: relative;
-        height: 140px;
+        height: 70px;
 
         img {
           position: absolute;
@@ -150,7 +152,7 @@ export default {
     }
 
     .story-card {
-      padding: 40px 50px;
+      padding: 50px 75px;
       min-width: 500px;
     }
 
@@ -172,14 +174,9 @@ export default {
     .container {
       .story-card {
         margin: auto;
-        min-width: 100%;
+        min-width: 0;
+        max-width: 500px;
         padding: 50px 75px;
-
-        .story-image {
-          img {
-            max-width: 50%;
-          }
-        }
       }
 
       .story-card.secondary {

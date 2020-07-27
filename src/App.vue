@@ -57,6 +57,7 @@
   h3 {
     font-family: 'TeX Adventor', Helvetica, Arial, sans-serif;
     font-size: @base-notice-size;
+    font-weight: 700;
     margin-bottom: 10px;
   }
 
