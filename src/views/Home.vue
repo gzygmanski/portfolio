@@ -2,9 +2,9 @@
   <div id="Home">
     <Navigation />
     <Header />
+    <About />
     <Projects />
     <Skills />
-    <About />
     <Contact />
   </div>
 </template>
